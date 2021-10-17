@@ -15,7 +15,7 @@ const questions = [
       {
         type: 'input',
         name: 'Description',
-        message: 'Please write a short description of what your project is about ',
+        message: 'Please write a short description of what your project is about',
       },
       {
         type: 'input',
@@ -32,7 +32,7 @@ const questions = [
         name: 'linkedin',
         message: 'Enter your LinkedIn URL.',
       }, 
-   
+      
 ];
 
 // TODO: Create a function to write README file
