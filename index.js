@@ -1,9 +1,10 @@
 // TODO: Include packages needed for this applicatio
-const inquirer = require('inquirer');
-const fs = require('fs');
+const inquirer = require("inquirer");
+const fs = require("fs");
+const util = require("util");
 
 // TODO: Create an array of questions for user input
-const questions = 
+const questions = [
   {
     type: "input",
     message: "What is your name?",
