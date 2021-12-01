@@ -17,18 +17,18 @@ const questions = [
   },
   {
     type: "input",
-    name: "Description",
+    name: "Project Description",
     message: "Please write a short description of what your project is about",
   },
   {
     type: "input",
-    name: "email",
+    name: "Email",
     message: "What is your email?",
   },
   {
     type: "input",
-    name: "github",
-    message: "Enter your GitHub Username",
+    name: "Github",
+    message: "Enter your GitHub URL",
   },
   {
     type: "input",
