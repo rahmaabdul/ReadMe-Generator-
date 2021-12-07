@@ -17,23 +17,29 @@ const questions = [
   },
   {
     type: "input",
-    name: "Project Description",
+    name: "Description",
     message: "Please write a short description of what your project is about",
   },
   {
     type: "input",
-    name: "Email",
-    message: "What is your email?",
+    name: "installation",
+    message: "How to install your application?",
   },
   {
     type: "input",
-    name: "Github",
-    message: "Enter your GitHub URL",
+    name: "Usage",
+    message: "Describe the usage of this application",
   },
   {
     type: "input",
     name: "linkedin",
     message: "Enter your LinkedIn URL.",
+  },
+
+  {
+    type: "input",
+    name: "license",
+    message: "Provide licenses",
   },
 ];
 
